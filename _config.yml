@@ -1,2 +1,4 @@
 name: Elisa Claire Alemán Carreón
 markdown: kramdown
+languages: ["en", "jp", "es"]
+exclude_from_localizations: ["assets", "css"]
