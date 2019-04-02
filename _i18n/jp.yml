@@ -1,1 +1,14 @@
-
+global:
+  tagline: 日本語
+  about: 私について
+  twitter: Twitter
+  github: GitHub
+langs:
+  en: English
+  es: Español
+  jp: 日本語
+pages:
+  example: 例
+  includeexample: パラメーター Jekyll include liquid tag
+titles:
+  pagination: ページネーション
