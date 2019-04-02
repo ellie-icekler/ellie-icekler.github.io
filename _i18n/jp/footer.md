@@ -1,2 +1,3 @@
-### Footer
-Se trata de un pie de página traducida!
+### フッター
+
+翻訳されているフッター
