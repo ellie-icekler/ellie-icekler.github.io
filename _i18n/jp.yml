@@ -8,7 +8,6 @@ langs:
   es: Español
   jp: 日本語
 pages:
-  example: 例
-  includeexample: パラメーター Jekyll include liquid tag
-titles:
-  pagination: ページネーション
+  about: について
+  cv: Curriculum Vitae （履歴書）
+  art: Ellie's Magical Drawings
