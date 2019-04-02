@@ -1,4 +1,7 @@
 name: Elisa Claire Alemán Carreón
 markdown: kramdown
+# Plugins
+gems: 
+  - jekyll-multiple-languages-plugin
 languages: ["en", "jp", "es"]
 exclude_from_localizations: ["assets", "css"]
