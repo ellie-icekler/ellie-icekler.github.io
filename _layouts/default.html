@@ -1,31 +1,12 @@
 <!DOCTYPE html>
-<html>
-  <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <title>{{ page.title }}</title>
-      <meta name="viewport" content="width=device-width">
-
-      <!-- Custom CSS -->
-      <link rel="stylesheet" href="/css/main.css">
-
-      <!-- Google Fonts -->
-      <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-      <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <div class="site">
-      <div class="sidebar" id="sidebar">
-        <div class="header">
-          {% if site.lang == "en" %}
-            <h1 class="title"><a href="{{ site.baseurl_root }}/"></a></h1>
-          {% else %}
-            <h1 class="title"><a href="{{ site.baseurl_root }}/{{ site.lang }}"></a></h1>
-          {% endif %}
-          <span class="tagline">{% t global.tagline %}</span>
-        </div>
-	<div class="navi">
-		<nav>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
 	    		<ul>
 	        		<li><a href="/">Home</a></li>
 		        	<li><a href="/about">About</a></li>
@@ -33,23 +14,15 @@
 	        		<li><a href="/art">Art and Drawings</a></li>
 	    		</ul>
 			</nav>
-	</div>
-        <div class="footer">
-          <span id="footer-links">
-            <a href="" class="footer-link">{% t global.about %}</a> <span class="separator">&bull;</span>  
-            <a href="" class="footer-link">{% t global.twitter %}</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">{% t global.github %}</a>
-          </span>
-        </div>
-        {% tf footer.md %}
-        <br />
-        <a class="link-en" href="{{ site.baseurl_root }}/">en</a>
-        <a class="link-es" href="{{ site.baseurl_root }}/es">es</a>
-	<a class="link-jp" href="{{ site.baseurl_root }}/jp">jp</a>
-      </div>
-	    <div class="container">
-		    {{ content }}
-	    </div><!-- /.container -->
-    </div>
-  </body>
-</html>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="https://github.com/ellie-icekler">github.com/ellie-icekler</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
