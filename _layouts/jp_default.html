@@ -7,6 +7,9 @@
             <meta name="description" content="Icekler: 私はエリサ・クレアー・アレマン・カレオンです。メキシコで生まれて、日本に留学生として４年以上住んできています。今は学術研究、論文、墨絵、武道をやっています。">
             <meta name="og:title" property="og:title" content="Elisa Claire - Icekler: ポートフォリオ">
             <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </head>
         <body>
             <nav>

@@ -7,6 +7,9 @@
             <meta name="description" content="Icekler: Mi nombre es Elisa Claire Alemán Carreón, soy una estudiante internacional mexicana, y he vivido en Japón por más de 4 años. Actualmente estoy dedicándome a la investigación académica, a hacer dibujos en tinta y practicar artes marciales.">
             <meta name="og:title" property="og:title" content="Elisa Claire - Icekler: Portafolio">
             <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </head>
         <body>
             <nav>

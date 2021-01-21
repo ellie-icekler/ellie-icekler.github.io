@@ -7,6 +7,9 @@
             <meta name="description" content="Icekler: My name is Elisa Claire Alemán Carreón, I am an international student born in Mexico, and I have lived in Japan for over 4 years. I am now pursuing research, submitting papers, making ink drawings and practicing martial arts">
             <meta name="og:title" property="og:title" content="Elisa Claire - Icekler: Portfolio">
             <meta name="viewport" content="initial-scale = 1.0,maximum-scale = 1.0" />
+            {% if site.google_analytics and jekyll.environment == 'production' %}
+            {% include analytics.html %}
+            {% endif %}
         </head>
         <body>
             <nav>
