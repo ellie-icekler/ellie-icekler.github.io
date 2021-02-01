@@ -844,6 +844,7 @@ footer {
         display:block;
         width:100%;
         box-sizing: border-box;
+        overflow-x: hidden;
     }
     
     .footer-div {
@@ -930,5 +931,25 @@ footer {
 
     .art_video_player{
         width:100%;
+    }
+
+        /* poetry*/
+
+    .poetry-gallery-container {
+        max-width:105%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .poetry-gallery {
+        display:block;
+        width:105%;
+        margin-left:0;
+    }
+
+    .poem-div {
+        display:block;
+        font-size:90%;
+        overflow-x: scroll;
     }
 }
