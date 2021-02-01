@@ -839,11 +839,13 @@ footer {
     .footer-div-container{
         display:block;
         width:100%;
+        box-sizing: border-box;
     }
     
     .footer-div {
         display:block;
         width:125%;
+        box-sizing: border-box;
         margin-left:-12.5%;
         margin-top: 0em;
         padding-left:12.5%;
