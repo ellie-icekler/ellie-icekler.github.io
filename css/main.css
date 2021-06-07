@@ -185,6 +185,33 @@ nav ul li:hover {
     color: #FFF;
 }
 
+.nav-buttons .nav-btn-science{
+    flex:1;
+    justify-content: space-between;
+    border:0.3em solid #FFF;
+}
+
+.nav-buttons .nav-btn-science a{
+    display: inline-block;
+    height:100%;
+    width: 100%;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    background-color: var(--trans-blue-dark);
+    color:#555555;
+}
+
+.nav-buttons .nav-btn-science a:visited{
+    background-color: var(--trans-blue-dark);
+    color:#555555;
+}
+
+.nav-buttons .nav-btn-science a:hover{
+    text-decoration: none;
+    background-color: var(--trans-pink-dark);
+    color: #FFF;
+}
+
 h1 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -358,6 +385,11 @@ ul li{
 
 #visual_link_ink{
     background: #2f2f2f;
+    color: #FFFFFF;
+}
+
+#visual_link_watercolor{
+    background: #4233ba;
     color: #FFFFFF;
 }
 
