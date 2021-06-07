@@ -649,7 +649,7 @@ ul li{
 }*/
 
 .poem-title{
-    display:block;
+    display:block;ß
     text-align: center;
     font-style:bold;
     font-size:1.2em;
@@ -692,8 +692,23 @@ ul li{
 }
 
 .prose-div {
-    display:block;
-    width:100%;
+    display:inline-flex;
+    flex-flow: column;
+    width: auto;
+    max-width: 100%;
+    height:auto;
+    float:center;
+    text-align:left;
+    font-size:90%;
+    padding-bottom: 4em;
+    background-color: var(--trans-pink);
+}
+
+.prose-div-half {
+    display:inline-flex;
+    flex-flow: column;
+    width: auto;
+    max-width: 45%;
     height:auto;
     float:center;
     text-align:left;
@@ -702,32 +717,49 @@ ul li{
 }
 
 .prose-title{
-    display:block;
+    display: block;
     text-align: left;
     font-style:bold;
     font-size:1.2em;
 }
 
 .prose-by{
-    display: block;
+    display:  block;
     text-align: left;
     font-size: 0.9em;
 }
 
 .prose-date{
-    display: block;
+    display:  block;
     text-align: left;
     font-size: 0.7em;
 }
 
 .prose-content{
     display: inline-block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
     text-align: left;
     font-size:0.9em;
     font-family:'Times New Roman', 'Serif';
     padding-top:1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    word-wrap: normal;
+}
+
+.prose-stream{
+    display: inline-block;
+    width: 100%;
+    overflow-x: scroll;
+    height: auto;
+    text-align: left;
+    font-size:0.9em;
+    font-family:'Times New Roman', 'Serif';
+    padding-top:1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    word-wrap: normal;
 }
 
 /* TOC */
